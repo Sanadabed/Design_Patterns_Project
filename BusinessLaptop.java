@@ -4,35 +4,33 @@
  */
 package laptopstore;
 
-/**
- *
- * @author Wafa
- */
+
+ 
 public class BusinessLaptop implements LaptopFactory{
 
     @Override
     public CPU createCPU() {
-       return null;
+       return new Intel_i9();
     }
 
     @Override
     public RAM createRAM() {
-        return null;
+        return new DDR5_32GB();
     }
 
     @Override
     public Storage createStorage() {
-          return null;
+        return new NVMe_1TB();
     }
 
     @Override
     public GPU createGPU() {
-           return null;
+        return new IntegratedGPU(); 
     }
 
     @Override
     public Screen createScreen() {
-          return null;
+          return new FHD_Screen();
     }
     
 }
