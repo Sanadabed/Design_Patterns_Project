@@ -27,7 +27,7 @@ public class DDR4_16GB implements RAM{
 
     @Override
     public String getDetails() {
-        return "Type"+getType() + "Price"+getPrice();
+        return getSize() + "GB " + getType() + " - $" + getPrice();
     }
 }
  
