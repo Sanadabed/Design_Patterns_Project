@@ -19,4 +19,7 @@ public class SSD_512GB implements Storage{
     public int getPrice(){
        return 50;
     }
+ public String getDetails() {
+        return getCapacity() + "GB " + getType() + " - $" + getPrice();
+    }
 }

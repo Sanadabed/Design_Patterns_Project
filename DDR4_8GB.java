@@ -19,4 +19,7 @@ public class DDR4_8GB implements RAM {
     public int getPrice(){
         return 40;
     }
+    public String getDetails(){
+     return getSize() + "GB " + getType() + " - $" + getPrice();
+    }
 }

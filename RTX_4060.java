@@ -18,6 +18,9 @@ public class RTX_4060 implements GPU{
     public int getPrice(){
         return 500;
     }
-}
 
+ public String getDetails() {
+        return getName() + " (" + getVRAM() + "GB VRAM) - $" + getPrice();
+    }
+}
 

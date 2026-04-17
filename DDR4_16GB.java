@@ -9,15 +9,26 @@ package laptopstore;
  * @author USER
  */
 public class DDR4_16GB implements RAM{
-    
- public String getType(){
-        return "DDR4";
+
+    @Override
+    public String getType() {
+       return "DDR4";
     }
-    public int getSize(){
-        return 16;
+
+    @Override
+    public int getSize() {
+         return 16;
     }
-    
-    public int getPrice(){
+
+    @Override
+    public int getPrice() {
         return 70;
     }
+
+    @Override
+    public String getDetails() {
+        return getSize() + "GB " + getType() + " - $" + getPrice();
+    }
 }
+ 
+

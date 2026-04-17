@@ -8,16 +8,19 @@ package laptopstore;
  *
  * @author USER
  */
-public class Intel_i9 {
+public class Intel_i9 CPU {
      public String getName(){
         return "Intel i9-13900HX";
     }
     public int getPrice(){
-        return 1500;
+        return 600;
     }
     
     public String getSpecs(){
         return "24 cores";
+    }
+  public String getDetails() {
+        return getName() + " - $" + getPrice() + " (" + getSpecs() + ")";
     }
 }
 
