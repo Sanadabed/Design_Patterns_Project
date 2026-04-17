@@ -18,4 +18,7 @@ public class SSD_256GB implements Storage{
     public int getPrice(){
        return 30;
     }
+ public String getDetails() {
+        return getCapacity() + "GB " + getType() + " - $" + getPrice();
+    }
 }
