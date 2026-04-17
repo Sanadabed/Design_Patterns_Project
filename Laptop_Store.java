@@ -1,5 +1,4 @@
 /*
-/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -10,7 +9,7 @@ public class Laptop_Store {
 
     public static void main(String[] args) {
         
-     System.out.println("============================================================");
+       System.out.println("============================================================");
         System.out.println("   LAPTOP FACTORY - Abstract Factory Pattern               ");
         System.out.println("============================================================");
         System.out.println();
@@ -50,7 +49,7 @@ public class Laptop_Store {
         Screen screen = factory.createScreen();
         
         Laptop laptop = new Laptop(cpu, ram, storage, gpu, screen, budget);
-        laptop.displaySpecs();
+        laptop.displaySpecifications(); 
         
         // Calculate total price for classification
         double totalPrice = cpu.getPrice() + ram.getPrice() + storage.getPrice() + 
@@ -59,7 +58,7 @@ public class Laptop_Store {
         System.out.print("Classification: ");
         LaptopClassifier.classify((int) totalPrice);
         
-        System.out.println("\n Recommendation complete! ");
-       
+        System.out.println("\nRecommendation complete!");
+
     }
 }
