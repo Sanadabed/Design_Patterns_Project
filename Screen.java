@@ -13,4 +13,5 @@ public interface Screen {
     double getSize();
     int getRefreshRate();
     int getPrice();
+    String getDetails();  
 }
