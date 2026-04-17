@@ -20,4 +20,7 @@ public class DDR5_32GB implements RAM{
     public int getPrice(){
         return 150;
     }
+    public String getDetails(){
+         return "Type"+getType() + "Price"+getPrice();
+    }
 }
