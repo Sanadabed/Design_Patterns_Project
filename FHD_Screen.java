@@ -4,16 +4,24 @@
  */
 package laptopstore;
 public class FHD_Screen implements Screen {
-  public String getResolution() {
-       return "1920x1080 FHD";
-   }
-  public double getSize() {
-       return 15.6;
-   }
-   public int getRefreshRate() {
-       return 60;
-   }
-   public int getPrice() {
-       return 100;
-   }
+
+    public String getResolution() {
+        return "1920x1080 FHD";
+    }
+    public double getSize() {
+        return 15.6;
+    }
+
+    public int getRefreshRate() {
+        return 60;
+    }
+
+    public int getPrice() {
+        return 100;
+    }
+
+    @Override
+    public String getDetails() {
+        return getSize() + "\" " + getResolution() + " (" + getRefreshRate() + "Hz) - $" + getPrice();
+    }
 }
