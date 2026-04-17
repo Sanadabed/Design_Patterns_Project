@@ -10,15 +10,19 @@ package laptopstore;
  */
 public class Intel_i3 implements CPU {
 
-    public String getName(){
+    public String getName() {
         return "Intel i3-1315U";
     }
 
-    public int getPrice(){
+    public int getPrice() {
         return 150;
     }
 
-    public String getSpecs(){
+    public String getSpecs() {
         return "6 Cores";
+    }
+
+    public String getDetails() {
+        return getName() + " - $" + getPrice() + " (" + getSpecs() + ")";
     }
 }
