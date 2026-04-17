@@ -10,15 +10,19 @@ package laptopstore;
  */
 public class IntegratedGPU implements GPU {
 
-    public String getName(){
+    public String getName() {
         return "Intel Iris Xe";
     }
 
-    public int getVRAM(){
+    public int getVRAM() {
         return 0;
     }
 
-    public int getPrice(){
+    public int getPrice() {
         return 0;
+    }
+
+    public String getDetails() {
+        return getName() + " (Integrated) - $" + getPrice();
     }
 }
