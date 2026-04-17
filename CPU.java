@@ -11,5 +11,5 @@ package laptopstore;
 public interface CPU {
     String getName();
     int getPrice();
-    
+     String getDetails(); 
 }
