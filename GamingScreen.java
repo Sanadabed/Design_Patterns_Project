@@ -9,16 +9,24 @@ package laptopstore;
  * @author USER
  */
 public class GamingScreen implements Screen {
-    public String getResolution(){
-        return"2560x1440 QHD";
+
+    public String getResolution() {
+        return "2560x1440 QHD";
     }
-    public double getSize(){
+
+    public double getSize() {
         return 17.3;
     }
-    public int getRefreshRate(){
+
+    public int getRefreshRate() {
         return 165;
     }
-    public int getPrice(){
+
+    public int getPrice() {
         return 270;
+    }
+
+    public String getDetails() {
+        return getSize() + "\" " + getResolution() + " (" + getRefreshRate() + "Hz) - $" + getPrice();
     }
 }
