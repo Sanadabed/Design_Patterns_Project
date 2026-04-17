@@ -8,22 +8,25 @@ package laptopstore;
  *
  * @author USER
  */
-public class HD_Screen implements Screen{
-    public String getResolution(){
+public class HD_Screen implements Screen {
+
+    public String getResolution() {
         return "1366x768 HD";
     }
-    public double getSize(){
+
+    public double getSize() {
         return 15.6;
     }
-    public int getRerfreshRate(){
-        return 60;
-    }
-    public int getPrice(){
+
+    public int getRefreshRate() {
         return 60;
     }
 
-    @Override
-    public int getRefreshRate() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public int getPrice() {
+        return 60;
+    }
+
+    public String getDetails() {
+        return getSize() + "\" " + getResolution() + " (" + getRefreshRate() + "Hz) - $" + getPrice();
     }
 }
