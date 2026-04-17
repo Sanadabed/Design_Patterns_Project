@@ -19,4 +19,7 @@ public class Intel_i5  implements CPU{
     public String getSpecs(){
         return "8 cores";
     }
+ public String getDetails() {
+        return getName() + " - $" + getPrice();
+    }
 }
