@@ -8,7 +8,7 @@ package laptopstore;
  *
  * @author USER
  */
-public class Intel_i9 CPU {
+public class Intel_i9 implements CPU {
      public String getName(){
         return "Intel i9-13900HX";
     }
