@@ -9,5 +9,9 @@ package laptopstore;
  * @author Wafa
  */
 public interface Screen {
-    
+    String getResolution();
+    double getSize();
+    int getRefreshRate();
+    int getPrice();
+    String getDetails();  
 }

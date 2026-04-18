@@ -15,3 +15,4 @@ public interface LaptopFactory {
     GPU createGPU();
     Screen createScreen();
 }
+

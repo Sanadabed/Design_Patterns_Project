@@ -9,5 +9,8 @@ package laptopstore;
  * @author Wafa
  */
 public interface Storage {
-    
+    String getType();
+    int getCapacity();
+    int getPrice();
+   String getDetails();
 }

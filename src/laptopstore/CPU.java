@@ -9,5 +9,7 @@ package laptopstore;
  * @author Wafa
  */
 public interface CPU {
-    
+    String getName();
+    int getPrice();
+     String getDetails(); 
 }

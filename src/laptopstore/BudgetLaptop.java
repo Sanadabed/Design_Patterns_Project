@@ -12,28 +12,26 @@ public class BudgetLaptop implements LaptopFactory{
 
     @Override
     public CPU createCPU() {
-       return null;
+       return new Intel_i3();
     }
 
     @Override
     public RAM createRAM() {
-      return null;
+      return new DDR4_8GB();
     }
 
     @Override
     public Storage createStorage() {
-        return null;
+        return new SSD_256GB();
     }
 
     @Override
     public GPU createGPU() {
-       return null;
+       return new IntegratedGPU();
     }
 
     @Override
     public Screen createScreen() {
-        return null;
+        return new HD_Screen();
     }
 }
-
-  

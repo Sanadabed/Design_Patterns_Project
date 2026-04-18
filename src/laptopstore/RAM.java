@@ -9,5 +9,8 @@ package laptopstore;
  * @author Wafa
  */
 public interface RAM {
-    
+    String getType();
+    int getSize();
+    int getPrice();
+   String getDetails(); 
 }

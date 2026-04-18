@@ -9,5 +9,8 @@ package laptopstore;
  * @author Wafa
  */
 public interface GPU {
-    
+    String getName();
+    int getVRAM();
+    int getPrice();
+   String getDetails();
 }
