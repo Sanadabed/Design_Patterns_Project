@@ -7,7 +7,11 @@ User enters budget → System recommends suitable laptop (Budget, Study, Busines
 Abstract Factory Pattern - Creates compatible product families (CPU, RAM, Storage, GPU, Screen)
 
 
-Sample Output:
+
+
+
+
+##Sample Output:
 
 Enter your budget in USD: $500
 
