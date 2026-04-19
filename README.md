@@ -5,7 +5,14 @@ User enters budget → System recommends suitable laptop (Budget, Study, Busines
 
 ## Pattern Used
 Abstract Factory Pattern - Creates compatible product families (CPU, RAM, Storage, GPU, Screen)
+## How to Run
 
+
+```bash
+git clone https://github.com/Sanadabed/Design_Patterns_Project.git
+cd Design_Patterns_Project
+javac src/laptopstore/*.java
+java -cp src laptopstore.Laptop_Store
 
 
 
