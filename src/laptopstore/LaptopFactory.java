@@ -4,10 +4,6 @@
  */
 package laptopstore;
 
-/**
- *
- * @author Wafa
- */
 public interface LaptopFactory {
    CPU createCPU();
     RAM createRAM();
